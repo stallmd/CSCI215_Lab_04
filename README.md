@@ -1,7 +1,7 @@
 # Lab_04
 JavaScript variables, funtions, and calculations
 
-Name: _______________________________________
+Name: Mackenzie Stall
 
 ## DUE: 01 Oct 2017 @ 11:59 pm
 
@@ -29,7 +29,7 @@ Inside the `convert` function create the local variables listed below.
   * Variable named `index` that is initialized to `selectElement.selectedIndex`
   * Variable named `currency` that is initialized to `selectElement.options[index].text`
   
-After the above variables have been created, call a function named `updateExchange` and pass (in order) these four arguments: `dollar`, `exchangeRate`, `currency`, and `index` (i.e. the variables created above).
+After the above variables have been created, call a function named `updateExchange` and pass (in order) these four arguments: `dolslar`, `exchangeRate`, `currency`, and `index` (i.e. the variables created above).
 
 ## Task 3: calculate function
 Create a function named `calculate` that has two parameters: the variable name of the first parameter is `dollar`, and variable of the second parameter is `exchangeRate`.
