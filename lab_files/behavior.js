@@ -9,7 +9,7 @@ var I = ['http://munsellb.people.cofc.edu/img/pound.jpeg','http://munsellb.peopl
 // Convert Function Goes Here
 function convert() {
     var dollar = document.getElementsByName("dollars")[0].value;
-    var selectElement =  document.getElementById('currency');
+    var selectElement = document.getElementById('currency');
     var exchangeRate= selectElement.value;
     var index = selectElement.selectedIndex;
     var currency= selectElement.options[index].text;
@@ -23,8 +23,9 @@ function convert() {
 // -----------------------------------
 // Calculate Function Goes Here
 function calculate(dollar, exchangeRate) {
-    var calc= dollar * exchangeRate;
-    return clac;
+
+    var calc = dollar * exchangeRate;
+    return calc;
 }
 
 // -----------------------------------
